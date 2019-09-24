@@ -65,7 +65,7 @@ public class User extends BaseEntity {
     /**
      * Expire time.
      */
-    @Column(name = "expire_time", columnDefinition = "timestamp default CURRENT_TIMESTAMP")
+    @Column(name = "expire_time")
     @Temporal(TemporalType.TIMESTAMP)
     private Date expireTime;
 

@@ -116,7 +116,7 @@ public class BasePost extends BaseEntity {
     /**
      * Edit time.
      */
-    @Column(name = "edit_time", columnDefinition = "timestamp default CURRENT_TIMESTAMP")
+    @Column(name = "edit_time")
     @Temporal(TemporalType.TIMESTAMP)
     private Date editTime;
 
