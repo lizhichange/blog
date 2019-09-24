@@ -1,7 +1,8 @@
 <div class="sidebar animated fadeInDown">
     <div class="logo-title">
         <div class="title">
-            <img src="${options.blog_logo!'${static!}/source/images/logo@2x.png'}" style="width:127px;<#if settings.avatar_circle!false>border-radius:50%</#if>" />
+            <img src="${options.blog_logo!'${static!}/source/images/logo@2x.png'}"
+                 style="width:127px;<#if settings.avatar_circle!false>border-radius:50%</#if>"/>
             <h3 title="">
                 <a href="${context!}">${options.blog_title!'Anatole'}</a>
             </h3>
@@ -21,10 +22,11 @@
             <span>Designed by </span>
             <a href="https://www.caicai.me">CaiCai</a>
             <div class="by_halo">
-                <a href="https://github.com/halo-dev/halo" target="_blank">Proudly published with Halo&#65281;</a>
+                <a href="https://github.com/halo-dev/halo" target="_blank">href="https://www.caicai.me"</a>
             </div>
             <div class="footer_text">
                 <@common.footer_info />
+                © 2018-2019 wljun.com 版权所有 ICP证：鄂ICP备18007886号-1
             </div>
         </a>
     </div>
