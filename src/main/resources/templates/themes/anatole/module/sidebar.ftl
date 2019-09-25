@@ -23,11 +23,15 @@
             <a href="https://www.caicai.me">CaiCai</a>
             <div class="by_halo">
                 <a href="https://github.com/halo-dev/halo" target="_blank">href="https://www.caicai.me"</a>
-            </div>
-            <div class="footer_text">
-                <@common.footer_info />
-                © 2018-2019 wljun.com 版权所有 ICP证：鄂ICP备18007886号-1
-            </div>
+                <div class="by_halo">
+                    © 2018-2019 wljun.com 版权所有 ICP证：鄂ICP备18007886号-1
+                </div>
+
+                <div class="footer_text">
+
+                    <@common.footer_info />
+
+                </div>
         </a>
     </div>
 </div>
